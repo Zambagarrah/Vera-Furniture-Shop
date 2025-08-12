@@ -83,6 +83,7 @@ img {
     border-radius: var(--rad2);
     transition: var(--trans);
     font-family: var(--header-font);
+    font-size: 1.2rem;
 }
 
 .link--btn:hover {
@@ -137,9 +138,12 @@ img {
 }
 
 .logo {
-    font-size: 1.5rem;
     font-family: var(--logo-font);
+    font-size: 2rem;
+    color: var(--primary-color);
     display: flex;
-    align-items: center;
     gap: 1rem;
+    transition: var(--trans);
+    filter: blur(0);
 }
+
