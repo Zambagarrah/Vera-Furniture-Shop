@@ -67,12 +67,12 @@ img {
     max-width: 100%;
 }
 
-/* Reusable CSS Classes */
-
-.section {
+section {
     padding-block: 7.5rem;
+    padding: 0 3rem;
 }
 
+/* Reusable CSS Classes */
 .link--btn {
     display: inline-block;
     color: var(--secondary-color);
@@ -82,6 +82,7 @@ img {
     transition: var(--trans);
     font-family: var(--header-font);
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .link--btn:hover {
@@ -174,3 +175,26 @@ img {
 }
 
 /* Home Section */
+.home {
+    padding: 7.5rem 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.home--title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.home--description {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
