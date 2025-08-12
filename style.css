@@ -36,9 +36,7 @@ body {
 
 body {
     color: var(--text-color);
-    /* background-color: transparent; */
     background: url(/assets/bg-home.jpg);
-
 }
 
 h3 {
@@ -103,7 +101,6 @@ img {
     justify-content: space-between;
     height: 3rem;
     margin: 1rem;
-    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -176,3 +173,4 @@ img {
     width: 250px;
 }
 
+/* Home Section */
