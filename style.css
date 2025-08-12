@@ -114,14 +114,17 @@ img {
     align-items: center;
     gap: 2rem;
     justify-content: space-between;
+    background-color: #a0a0a07c;
+    border-radius: 1rem;
+    padding: .8rem 2.5rem;
 }
 
-.nav--items {
+.nav--links {
     font-family: var(--header-font);
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
-    letter-spacing: 1px;
+
 }
 
 .logo {
