@@ -114,17 +114,26 @@ img {
     align-items: center;
     gap: 2rem;
     justify-content: space-between;
-    background-color: #a0a0a07c;
-    border-radius: 1rem;
+    background-color: #a0a0a063;
+    border-radius: 2rem;
     padding: .8rem 2.5rem;
 }
 
 .nav--links {
     font-family: var(--header-font);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
+    padding: .8rem;
+    border-radius: 2rem;
+    transition: var(--trans);
+}
 
+.nav--links:hover {
+    background-color: var(--highlight);
+    color: var(--primary-color);
+    padding: .5rem;
 }
 
 .logo {
